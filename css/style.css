@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif !important;
+
+
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a, a:hover{
+    text-decoration: none  ;
+}
+/* **********************header & banner start*********************** */
+.header{
+    width: 100%;
+    background: #F0FFF0;
+    
+}
+.menu{
+    width:100%;
+
+}
+.menu .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    margin: 0px 0px 0px 30px;
+
+
+}
+.menu .navbar-nav .nav-item .nav-link:hover, .menu .navbar-nav .nav-item .nav-link:focus{
+    color: #21B573;
+    
+}
+.menu .navbar-nav .nav-item .btn-success{
+    padding: 10px 25px;
+    margin: 0px 0px 0px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #21B573;
+    transition: .6s;
+    border: 1px solid #21B573;
+   
+}
+.menu .navbar-nav .nav-item .btn-success:hover, .menu .navbar-nav .nav-item .btn-success:focus{
+    border: 1px solid #21B573;
+    color: #21B573; 
+    background: transparent;
+}
+/* *****************banner****************** */
+
+
+.banner{
+    width: 100%;
+    padding: 70px 0px;
+}
+.inner-banner{
+    width: 100%;
+    padding: 70px 50px 0px;
+}
+.inner-banner h4{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #FD511A;
+
+    
+}
+.inner-banner h1{
+    font-size: 52px;
+    line-height: 62x;
+    font-weight: 700;
+    color: #000;
+   
+}
+
+.inner-banner h1 span{
+    color: #21B573;
+}
+.inner-banner p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px 0px 30px;
+        
+}
+.inner-banner .btn-success{
+    padding: 10px 25px;  
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #21B573;
+    transition: .6s;
+    border: 1px solid #000;
+   
+}
+.inner-banner .btn-success:hover{
+    background: transparent;
+    border: 1px solid #21B573; 
+    color: #21B573;
+
+}
+/********************* header & banner end**************** */
+/********************* feature start**************** */
+.feature{
+    width: 100%;
+    padding: 60px 0px;
+}
+.feature .inner-feature{
+    width: 100%;
+    padding: 40px;
+    background: #F8FFFB;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.feature .inner-feature img{
+    width: 70px;
+    height: 85px;
+    margin: 0px 0px 20px;
+    
+
+}
+.feature .inner-feature h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin: 0px ;
+}
+
+.feature .inner-feature p{
+    font-size: 16px;
+    font-weight: 500;
+    color:  #585859;
+    
+
+}
+.feature .inner-feature:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+
+
+}
+/********************* feature end**************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
